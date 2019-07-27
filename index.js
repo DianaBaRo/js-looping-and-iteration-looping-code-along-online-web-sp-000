@@ -32,4 +32,4 @@ function countdown(number) {
   }
 }
 
-countdown(number);
+countdown(10);
