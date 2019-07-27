@@ -31,3 +31,5 @@ function countdown(number) {
     console.log(i--);
   }
 }
+
+countdown(number);
