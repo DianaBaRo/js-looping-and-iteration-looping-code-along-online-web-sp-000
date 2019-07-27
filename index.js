@@ -14,8 +14,21 @@ function wrapGifts(gifts) {
 
 wrapGifts(gifts);
 
+let names = ["yo","que", "se"];
+
 function writeCards(names, event) {
   for (let i = 0; i < names.length; i++) {
-    console.log(`Thank you, ${names[i]}, for the wonderful ${event} gift.`)
+    console.log(`Thank you, ${names[i]}, for the wonderful ${event} gift.`);
   }
 }
+
+writeCards(names, "haloween");
+
+function countdown(number) {
+  let i = number;
+
+  while (i >= 0) {
+    console.log(i--);
+  }
+}
+countdown(number);
